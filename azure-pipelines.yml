@@ -19,7 +19,7 @@ stages:
       - job: 'JunitTest'
         displayName: 'Running unit tests'
         steps:
-          - script: echo 'Running Spring demo app unit test1'
+          - script: echo 'Running Spring demo app unit '
           - task: Maven@3
             inputs:
               mavenPomFile: 'pom.xml'
